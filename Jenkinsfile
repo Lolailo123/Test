@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
        main
-        stage('Mantenimientoss de la database') {
+        stage('Mantenimientos de la database') {
             steps {
                 script {
                     // Se descarga la base de datos Employees.db
